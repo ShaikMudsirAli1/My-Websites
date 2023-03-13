@@ -1,0 +1,104 @@
+   FAVICONS 
+    
+    <---- https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/ ---->
+
+   <H1> TAG AND <P> TAG IS DISPLAY BLOCK TYPE WHICH TAKES 
+   UNECESSARY SPACES IN THE DOM
+
+   <SPAN> <IMG> <A> COMMON INLINE ELEMENTS
+ 
+         DISPLAY ::::::::::
+ 1 display:inline ;
+
+  2 display:block ;
+
+   3 display:inline-block; ----  we can change the width and inline them .
+
+   4 .display: none
+
+    5 . visibility:hidden;
+     
+      html----------
+    <p>Hello</p>
+<p class="second-p">dentos</p>
+<p>World</p>
+
+
+  <span>Inline</span>
+   <span>Elements you cant changa the width</span>
+
+   
+   css-------------
+
+   p {
+  background-color:red;
+  width:300px;
+  display:inline;
+}
+
+span {
+  display:block;
+   background-color:yellow;
+    width:300px;
+}
+
+.second-p {
+  background-color:green;
+    display:inline;
+    visibility:hidden;
+}
+
+    CSS POSITIONING 
+
+      STATIC BY DEFAULT
+
+      RELATIVE POSTIONING  WITH PROPERTY COORDINATES
+                WHICH POSTION WITH OPPOSITE WAY 
+                WITH REALATIVE
+        (((((((REALATIVE TO THE BODY)))))))
+       ABOSOLUTE POSITIONING WITH PROPERTY COORDINATES
+                 WHICH TAKING THE ABOSOLUTE FLOW OF 
+                 THE DOCUMENT          
+
+
+https://www.cssfontstack.com/--- this website tell about 
+ what font or typeface to be used for the different OS.
+          WEBSITE SAFE FONTS ********
+
+ css fonts family: WE CALLED THIS TYPE FACE
+
+         sans-serif normal web styling
+                    (((BY DEFULT SANS-SERIF IS ARIAL)))
+
+         serif -  normal web styling
+                 (((BY DEFAULT WE HAVE SERIF FAMILY USE TIMES FONT)))
+
+         monospace : Each of the character in the text takes same 
+                     same amount of width and thats usually a TYPE
+                     face that we use for coding because it makes
+                     makes everthing super easy to read
+
+         cursive  we are not going to use low readibility
+                  dont look great when we use body of 
+                  the website((((HAND WRITTEN))))
+
+         fantasy  we are not going to use low readibility
+                  dont look great when we use body of the
+                  website (((AVATAR FONT)))
+
+         inherit      
+     
+
+          CSS DYNAMIC-FONT SIZING : WHICH ADAPT CHANGES EASILY.
+
+
+         font-size: rem ---- beauty of the root em ((root em)) is that is does not get affected by upstream
+                    size changes and it means and easier to debug
+                    so sizing text we must use rem for first priority.
+                    instead fo em and percentage
+
+
+
+                    1 em ---------- is  16px 
+
+                    40px/16px which is 2.5rem
